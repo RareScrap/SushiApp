@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".layout.SushiMenu">
+
+    <ImageView
+        android:layout_height="wrap_content"
+        android:id="@+id/sushiImageView"
+        app:srcCompat="@mipmap/sushi_test_image"
+        android:layout_width="@dimen/item_picture_width"
+        android:scaleType="fitCenter" />
+
+    <android.support.v7.widget.GridLayout
+        app:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:useDefaultMargins="true"
+        app:columnCount="2"
+        app:rowCount="3"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            app:layout_column="0"
+            app:layout_row="0"
+            android:text="New Text"
+            app:layout_columnWeight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/price"
+            app:layout_column="1"
+            app:layout_row="0"
+            android:text="New Text"
+            app:layout_columnWeight="1"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/components"
+            app:layout_column="0"
+            android:text="LargeText"
+            app:layout_columnSpan="2"/>
+
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>
