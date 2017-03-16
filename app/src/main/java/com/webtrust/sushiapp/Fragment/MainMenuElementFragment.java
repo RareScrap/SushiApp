@@ -1,4 +1,4 @@
-package com.webtrust.sushiapp.layout;
+package com.webtrust.sushiapp.Fragment;
 
 
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import com.webtrust.sushiapp.R;
 
 /**
- * A simple {@link Fragment} subclass.
+ * Квадратный элемент - выбор меню
  */
 public class MainMenuElementFragment extends Fragment {
 
@@ -24,7 +24,7 @@ public class MainMenuElementFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_main_menu_element, container, false);
+        return inflater.inflate(R.layout.fragment_main_menu_list_item, container, false);
     }
 
 }

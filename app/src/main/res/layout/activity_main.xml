@@ -9,6 +9,7 @@
     <fragment
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:name="com.webtrust.sushiapp.layout.MenusListFragment"
-        android:id="@+id/fragment" />
+        android:name="com.webtrust.sushiapp.Fragment.MenusListFragment"
+        android:id="@+id/fragment"
+        tools:layout="@layout/fragment_menus_list" />
 </RelativeLayout>

@@ -1,4 +1,4 @@
-package com.webtrust.sushiapp.layout;
+package com.webtrust.sushiapp.Fragment;
 
 
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.ViewGroup;
 import com.webtrust.sushiapp.R;
 
 /**
- * A simple {@link Fragment} subclass.
+ * список элементов данного меню
  */
 public class MenusListFragment extends Fragment {
 

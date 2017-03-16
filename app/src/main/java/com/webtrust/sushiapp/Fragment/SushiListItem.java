@@ -1,4 +1,4 @@
-package com.webtrust.sushiapp.layout;
+package com.webtrust.sushiapp.Fragment;
 
 import android.content.Context;
 import android.net.Uri;
@@ -11,10 +11,7 @@ import android.view.ViewGroup;
 import com.webtrust.sushiapp.R;
 
 /**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link SushiListItem.OnFragmentInteractionListener} interface
- * to handle interaction events.
+ * Элемент меню для отображения
  */
 public class SushiListItem extends Fragment {
 
